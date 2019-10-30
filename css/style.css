@@ -31,11 +31,10 @@ main .nav {
   padding: 7px 50px;
   background-color: rgb(0, 0, 0);
   background: linear-gradient(rgba(65, 64, 64, 0.404), rgb(46, 46, 46), rgba(10, 10, 10, 0.404));
-  
 }
 
-.nav a:hover{
-  background: linear-gradient(rgb(71, 71, 71),rgba(0, 0, 0, 0.692),rgb(41, 40, 40));
+.nav a:hover {
+  background: linear-gradient(rgb(71, 71, 71), rgba(0, 0, 0, 0.692), rgb(41, 40, 40));
 }
 
 .seach {
@@ -55,16 +54,17 @@ main .nav {
   background: linear-gradient(rgba(65, 64, 64, 0.404), rgb(46, 46, 46), rgba(65, 64, 64, 0.404));
 }
 
-.logo:hover{
-  background: linear-gradient(rgb(71, 71, 71),rgba(0, 0, 0, 0.692),rgb(41, 40, 40));
+.logo:hover {
+  background: linear-gradient(rgb(71, 71, 71), rgba(0, 0, 0, 0.692), rgb(41, 40, 40));
 }
+
 input {
   background: url(../images/search.png) 0 0 no-repeat;
   background-size: 15px auto;
   background-color: rgb(75, 75, 75);
   width: 80px;
   border-radius: 10px;
-  color:#ffffff;
+  color: #ffffff;
 }
 
 .write {
@@ -77,15 +77,17 @@ input {
   font-weight: lighter;
 }
 
-#lp{
+#lp {
   display: flex;
   justify-content: center;
 }
-#lp img{
+
+#lp img {
   margin-left: 10px;
   height: 30px;
 }
-.write a{
+
+.write a {
   color: aliceblue;
   text-decoration: none;
   font-size: 25px;
@@ -93,7 +95,7 @@ input {
   font-weight: 100;
 }
 
-.write a:hover{
+.write a:hover {
   text-decoration: underline;
 }
 
@@ -122,11 +124,12 @@ footer {
   font-size: 12px;
   line-height: 20px;
 }
- .bottom a{
-   color: rgb(51, 51, 138);
-   text-decoration: none;
- }
 
- .bottom a:hover{
-   text-decoration: underline;
- }
+.bottom a {
+  color: rgb(51, 51, 138);
+  text-decoration: none;
+}
+
+.bottom a:hover {
+  text-decoration: underline;
+}
