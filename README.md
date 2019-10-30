@@ -12,7 +12,7 @@
    <a href="https://github.com/Tresor11/Background-and-radiant/tree/development"><strong>Explore the docs »</strong></a>
    <br />
    <br />
-   <a href="https://raw.githack.com/Tresor11/Background-and-radiant/development/index.html"> :wink: View Demo </a> 
+   <a href="https://github.com/Tresor11/Background-and-radiant/blob/master/index.html"> :wink: View Demo </a> 
  </p>
 </p>
 <h2 align="center">Tools and Technologies Used<h2>
