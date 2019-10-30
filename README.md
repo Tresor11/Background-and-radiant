@@ -6,7 +6,7 @@
  <p align="center">
    Fourth Microverse Project - backgound and gradient</br>
  
-                          This is a clone of the old apple home page
+                               This is a clone of the old apple home page
                                
    <br />
    <a href="https://github.com/Tresor11/Background-and-radiant/tree/development"><strong>Explore the docs »</strong></a>
