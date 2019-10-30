@@ -1,11 +1,11 @@
-body{
+body {
   margin: -8px;
   padding: none;
 }
 
-main{
+main {
   background: url(../images/your_verse_hero.jpg) 0 0 no-repeat;
-  background-size: auto 100% ;
+  background-size: auto 100%;
   background-size: cover;
   background-position-y: 100%;
   display: flex;
@@ -16,76 +16,94 @@ main{
   min-height: 500px;
 }
 
-main .nav{
+main .nav {
   display: flex;
   width: 100%;
   margin-bottom: 30%;
 }
 
-.nav a{
+.nav a {
   flex: 1;
   text-decoration: none;
   color: aliceblue;
   border-left: 1px solid black;
   text-decoration: none;
-  padding: 10px 50px;
-  background-color: rgb(80, 80, 80);
-  background: linear-gradient(rgba(255, 255, 255, 0.404),rgb(80, 80, 80),rgba(255, 255, 255, 0.404));
+  padding: 7px 50px;
+  background-color: rgb(0, 0, 0);
+  background: linear-gradient(rgba(65, 64, 64, 0.404), rgb(46, 46, 46), rgba(65, 64, 64, 0.404));
+  
 }
 
-.seach{
+.seach {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   padding: 7px 10px;
   border-left: 1px solid black;
-  background-color: rgb(80, 80, 80);
-  background: linear-gradient(white,black,white);
+  background-color: rgb(0, 0, 0);
+  background: linear-gradient(rgba(65, 64, 64, 0.404), rgb(46, 46, 46), rgba(65, 64, 64, 0.404));
 }
-.logo{
+
+.logo {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   padding: 7px 50px;
-  background-color: rgb(80, 80, 80);
-  background: linear-gradient(white,black,white);
+  background-color: rgb(0, 0, 0);
+  background: linear-gradient(rgba(65, 64, 64, 0.404), rgb(46, 46, 46), rgba(65, 64, 64, 0.404));
 }
-input{
-  background:url(../images/search.png) 0 0 no-repeat;
+
+input {
+  background: url(../images/search.png) 0 0 no-repeat;
+  background-size: 15px auto;
   background-color: rgb(75, 75, 75);
   width: 80px;
   border-radius: 10px;
 }
 
-.write{
-width: 100%;
-font-size: 30px;
-color: bisque;
-text-align: center;
-margin-top: -20%;
-line-height: 30px;
-font-weight: lighter;
+.write {
+  width: 100%;
+  font-size: 30px;
+  color: bisque;
+  text-align: center;
+  margin-top: -20%;
+  line-height: 30px;
+  font-weight: lighter;
 }
 
-footer{
+#lp{
+  display: flex;
+  justify-content: center;
+}
+#lp img{
+  margin-left: 10px;
+  height: 30px;
+}
+.write a{
+  color: aliceblue;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+footer {
   display: flex;
   flex-direction: column;
 }
 
 .footer {
-display: flex;
-margin: -10px;
+  display: flex;
+  margin: -10px;
 }
 
-.footer img{
+.footer img {
   width: 25%;
 }
 
-.bottom{
+.bottom {
   display: flex;
   width: 100%;
   justify-content: space-around;
 }
 
-.bottom div{
+.bottom div {
   width: 30%;
   font-size: 12px;
   line-height: 20px;
