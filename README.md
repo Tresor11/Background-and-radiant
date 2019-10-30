@@ -33,5 +33,6 @@ Project Link :envelope:: [Project repo](https://github.com/Tresor11/Background-a
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
 [contributors-url]: https://github.com/Tresor11/Background-and-radiant
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
+[issues-url]: https://github.com/Tresor11/Background-and-radiant/issues
 [product-screenshot]: ./images/template.PNG
 
