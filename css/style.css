@@ -44,6 +44,10 @@ main .nav {
   text-decoration: none;
 }
 
+.footer a {
+  width: 25%;
+}
+
 .nav a:hover {
   background: linear-gradient(rgb(71, 71, 71), rgba(0, 0, 0, 0.692), rgb(41, 40, 40));
 }
@@ -89,10 +93,6 @@ input {
 #lp {
   display: flex;
   justify-content: center;
-}
-
-.footer a {
-  width: 25%;
 }
 
 #lp img {
