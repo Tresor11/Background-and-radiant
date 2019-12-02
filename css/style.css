@@ -1,0 +1,136 @@
+body {
+  margin: -8px;
+  padding: none;
+  box-sizing: border-box;
+}
+
+main {
+  background: url(../images/your_verse_hero.jpg) 0 0 no-repeat;
+  background-size: auto 100%;
+  background-size: cover;
+  background-position-y: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  min-height: 500px;
+}
+
+main .nav {
+  display: flex;
+  width: 100%;
+  margin-bottom: 30%;
+}
+
+.nav a {
+  flex: 1;
+  text-decoration: none;
+  color: aliceblue;
+  border-left: 1px solid black;
+  padding: 7px 50px;
+  background: linear-gradient(rgba(65, 64, 64, 0.404), rgb(46, 46, 46), rgba(10, 10, 10, 0.404));
+}
+
+.write a {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 25px;
+  margin-bottom: 10px;
+  font-weight: 100;
+}
+
+.bottom a {
+  color: rgb(51, 51, 138);
+  text-decoration: none;
+}
+
+.footer a {
+  width: 25%;
+}
+
+.nav a:hover {
+  background: linear-gradient(rgb(71, 71, 71), rgba(0, 0, 0, 0.692), rgb(41, 40, 40));
+}
+
+.seach {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 7px 10px;
+  border-left: 1px solid black;
+  background: linear-gradient(rgba(65, 64, 64, 0.404), rgb(46, 46, 46), rgba(65, 64, 64, 0.404));
+}
+
+.logo {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 7px 50px;
+  background: linear-gradient(rgba(65, 64, 64, 0.404), rgb(46, 46, 46), rgba(65, 64, 64, 0.404));
+}
+
+.logo:hover {
+  background: linear-gradient(rgb(71, 71, 71), rgba(0, 0, 0, 0.692), rgb(41, 40, 40));
+}
+
+input {
+  background: url(../images/search.png) 0 0 no-repeat;
+  background-size: 15px auto;
+  background-color: rgb(75, 75, 75);
+  width: 80px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.write {
+  width: 100%;
+  font-size: 30px;
+  color: bisque;
+  text-align: center;
+  margin-top: -20%;
+  line-height: 30px;
+  font-weight: lighter;
+}
+
+#lp {
+  display: flex;
+  justify-content: center;
+}
+
+#lp img {
+  margin-left: 10px;
+  height: 30px;
+}
+
+.write a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.footer {
+  display: flex;
+}
+
+.footer img{
+  width: 100%;
+}
+
+.bottom {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.bottom div {
+  width: 30%;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.bottom a:hover {
+  text-decoration: underline;
+}
